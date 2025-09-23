@@ -75,11 +75,9 @@ class Attention_HMSA_decoder_1(nn.Module):
         self.proj = nn.Linear(dim, dim)
         self.proj_drop = nn.Dropout(proj_drop)
 
-        # 初始化权重
         self.apply(self._init_weights)
 
     def _init_weights(self, m):
-        # 权重初始化函数，对线性层和层归一化层进行不同的初始化
         if isinstance(m, nn.Linear):
             trunc_normal_(m.weight, std=.02)
             if isinstance(m, nn.Linear) and m.bias is not None:
@@ -89,18 +87,13 @@ class Attention_HMSA_decoder_1(nn.Module):
             nn.init.constant_(m.weight, 1.0)
 
     def get_attention_map(self, x, return_map=False):
-        # 获取输入张量的形状信息
         B, N, C = x.shape
-        # 使用线性映射计算查询（q）、键（k）、和值（v）
         qkv = self.qkv(x).reshape(B, N, 3, self.num_heads, C // self.num_heads).permute(2, 0, 3, 1, 4)
         q, k, v = qkv[0], qkv[1], qkv[2]
-        # 计算注意力分数，并进行缩放
         attn_map = (q @ k.transpose(-2, -1)) * self.scale
-        # 对注意力分数进行 softmax 操作，并取平均
         attn_map = attn_map.softmax(dim=-1).mean(0)
 
         img_size = int(N ** .5)
-        # 计算注意力分数与位置之间的关系
         ind = torch.arange(img_size).view(1, -1) - torch.arange(img_size).view(-1, 1)
         indx = ind.repeat(img_size, img_size)
         indy = ind.repeat_interleave(img_size, dim=0).repeat_interleave(img_size, dim=1)
@@ -108,7 +101,6 @@ class Attention_HMSA_decoder_1(nn.Module):
         distances = indd ** .5
         distances = distances.to('cuda')
 
-        # 计算位置与注意力分数的加权平均距离
         dist = torch.einsum('nm,hnm->h', (distances, attn_map))
         dist /= N
 
@@ -531,11 +523,9 @@ class Attention_HMSA_decoder_1(nn.Module):
         self.proj = nn.Linear(dim, dim)
         self.proj_drop = nn.Dropout(proj_drop)
 
-        # 初始化权重
         self.apply(self._init_weights)
 
     def _init_weights(self, m):
-        # 权重初始化函数，对线性层和层归一化层进行不同的初始化
         if isinstance(m, nn.Linear):
             trunc_normal_(m.weight, std=.02)
             if isinstance(m, nn.Linear) and m.bias is not None:
@@ -545,18 +535,13 @@ class Attention_HMSA_decoder_1(nn.Module):
             nn.init.constant_(m.weight, 1.0)
 
     def get_attention_map(self, x, return_map=False):
-        # 获取输入张量的形状信息
         B, N, C = x.shape
-        # 使用线性映射计算查询（q）、键（k）、和值（v）
         qkv = self.qkv(x).reshape(B, N, 3, self.num_heads, C // self.num_heads).permute(2, 0, 3, 1, 4)
         q, k, v = qkv[0], qkv[1], qkv[2]
-        # 计算注意力分数，并进行缩放
         attn_map = (q @ k.transpose(-2, -1)) * self.scale
-        # 对注意力分数进行 softmax 操作，并取平均
         attn_map = attn_map.softmax(dim=-1).mean(0)
 
         img_size = int(N ** .5)
-        # 计算注意力分数与位置之间的关系
         ind = torch.arange(img_size).view(1, -1) - torch.arange(img_size).view(-1, 1)
         indx = ind.repeat(img_size, img_size)
         indy = ind.repeat_interleave(img_size, dim=0).repeat_interleave(img_size, dim=1)
@@ -564,7 +549,6 @@ class Attention_HMSA_decoder_1(nn.Module):
         distances = indd ** .5
         distances = distances.to('cuda')
 
-        # 计算位置与注意力分数的加权平均距离
         dist = torch.einsum('nm,hnm->h', (distances, attn_map))
         dist /= N
 
@@ -616,7 +600,6 @@ class MutualSelfBlock(nn.Module):
         self.drop_path = DropPath(drop_path) if drop_path > 0. else nn.Identity()
         mlp_hidden_dim = int(dim * mlp_ratio)
 
-        # mutual cross agent attention
         self.norm1_rgb_ma = norm_layer(dim)
         self.norm2_depth_ma = norm_layer(dim)
         self.mutualAttn = Mutual_Cross_Agent_Attention(dim, num_patches=(224 // 16) * (224 // 16),
