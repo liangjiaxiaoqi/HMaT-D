@@ -83,7 +83,25 @@ Download the backbone pretrained parameters from https://pan.baidu.com/s/15xypQA
 
 ### Train
 <!--To perform the full pipeline (training, testing, and evaluation), run: python train_test_eval.py --mode all. The predictions will be saved in the preds/ directory, and the evaluation metrics will be recorded in result.txt.-->
-Run: python train_test_eval.py --Training True.  
+python train_test_eval.py --Training True.  
 
 ### Test
-Run: python train_test_eval.py --Testing True.  
+python train_test_eval.py --Testing True.  
+
+---
+
+## 📚 Related Multi-Modal SOD Works
+
+If you are interested in our research, please also check out related works in the field of multi-modal representation learning and salient object detection:
+
+● [Competitive fusion in multimodal networks for enhanced salient object detection (The Visual Computer, CCF-B)](https://github.com/liangjiaxiaoqi/MC2FNet)  
+● [HEFT: Hierarchical Enhanced Fusion Transformer for RGB-D Salient Object Detection (ICARM 2025, CAA-A)](https://ieeexplore.ieee.org/document/11293468)
+
+---
+
+## ✒️ Citation
+
+If you find our work useful for your research, please cite our paper as follows:
+
+```bibtex
+
