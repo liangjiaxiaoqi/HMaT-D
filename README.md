@@ -24,11 +24,11 @@ Run: python train_test_eval.py --Testing True.
 
 🎉🎉🎉 **News:** [Our paper](https://liangjiaxiaoqi.github.io/files/Multi-Modal_Hierarchical_Fusion_with_Cross-Agent_for_RGB-D_Salient_Object_Detection.pdf) has been officially accepted by ***IEEE ICASSP 2026***! 🎉🎉🎉
 
-  
 This repository contains the official PyTorch implementation of **HMaT-D**. In this work, we propose a Multi-modal Hierarchical Fusion network with Cross-Agent designed for highly efficient multimodal interaction in RGB-D Salient Object Detection (SOD) tasks.
 
 ---
 
+<!--
 ## ✨ Motivation
 
 *(Add a brief description of the motivation behind HMaT-D here, similar to what you did for MC2FNet. Describe the specific problem in RGB-D SOD that this model solves.)*
@@ -39,6 +39,7 @@ This repository contains the official PyTorch implementation of **HMaT-D**. In t
 </div>
 
 ---
+-->
 
 ## 🚀 Model Architecture
 
@@ -46,12 +47,12 @@ This repository contains the official PyTorch implementation of **HMaT-D**. In t
 
 <div align="center">
   <img src="image/model.jpg" alt="HMaT-D Model Architecture" width="90%">
-  <p><em>Figure 2: Overall Architecture of the proposed HMaT-D.</em></p>
+  <p><em>Figure 1: Overall Architecture of the proposed HMaT-D.</em></p>
 </div>
 
 <div align="center">
   <img src="image/cross-agent_attention.jpg" alt="HMaT-D Model Architecture" width="90%">
-  <p><em>Figure 2: Overall Architecture of the proposed HMaT-D.</em></p>
+  <p><em>Figure 2: The proposed C2MBA-T convertor model (Top left) and bilateral cross-agent attention framework (Right).</em></p>
 </div>
 
 ---
