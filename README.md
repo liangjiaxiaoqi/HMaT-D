@@ -94,7 +94,7 @@ python train_test_eval.py --Testing True.
 
 If you are interested in our research, please also check out related works in the field of multi-modal representation learning and salient object detection:
 
-● [Competitive fusion in multimodal networks for enhanced salient object detection (The Visual Computer, CCF-B)](https://github.com/liangjiaxiaoqi/MC2FNet)  
+● [Competitive fusion in multimodal networks for enhanced salient object detection (The Visual Computer, CCF-C)](https://github.com/liangjiaxiaoqi/MC2FNet)  
 ● [HEFT: Hierarchical Enhanced Fusion Transformer for RGB-D Salient Object Detection (ICARM 2025, CAA-A)](https://ieeexplore.ieee.org/document/11293468)
 
 ---
