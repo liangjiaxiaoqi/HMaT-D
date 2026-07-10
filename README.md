@@ -62,13 +62,13 @@ This repository contains the official PyTorch implementation of **HMaT-D**. In t
 Extensive experiments demonstrate that HMaT-D achieves state-of-the-art performance against other methods on multiple widely-used RGB-D Salient Object Detection benchmarks.
 
 <div align="center">
-  <img src="docs/RGB-D results.jpg" alt="Experimental Results" width="90%">
+  <img src="image/Quantitative results.jpg" alt="Experimental Results" width="90%">
   <p><em>Figure 3: Quantitative results of HMaT-D compared with RGB-D SOD State-of-the-Art methods.</em></p>
 </div>
 
 <div align="center">
-  <img src="docs/Visualization of HMaT-D.jpg" alt="Experimental Results" width="90%">
-  <p><em>Figure 4: Visualization of RGB-D salient object detection by HMaT-D.</em></p>
+  <img src="image/Converter Comparison.jpg" alt="Experimental Results" width="80%">
+  <p><em>Figure 4: Qualitative results of HMaT-D compared with RGB-D SOD State-of-the-Art methods.</em></p>
 </div>
 
 ---
