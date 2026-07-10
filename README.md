@@ -67,7 +67,7 @@ Extensive experiments demonstrate that HMaT-D achieves state-of-the-art performa
 </div>
 
 <div align="center">
-  <img src="image/Converter Comparison.jpg" alt="Experimental Results" width="80%">
+  <img src="image/Converter Comparison.jpg" alt="Experimental Results" width="60%">
   <p><em>Figure 4: Qualitative results of HMaT-D compared with RGB-D SOD State-of-the-Art methods.</em></p>
 </div>
 
