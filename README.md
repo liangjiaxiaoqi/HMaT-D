@@ -24,6 +24,7 @@ Run: python train_test_eval.py --Testing True.
 
 🎉🎉🎉 **News:** [Our paper](https://liangjiaxiaoqi.github.io/files/Multi-Modal_Hierarchical_Fusion_with_Cross-Agent_for_RGB-D_Salient_Object_Detection.pdf) has been officially accepted by ***IEEE ICASSP 2026***! 🎉🎉🎉
 
+
 This repository contains the official PyTorch implementation of **HMaT-D**. In this work, we propose a Multi-modal Hierarchical Fusion network with Cross-Agent designed for highly efficient multimodal interaction in RGB-D Salient Object Detection (SOD) tasks.
 
 ---
