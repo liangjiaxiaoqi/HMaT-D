@@ -104,4 +104,13 @@ If you are interested in our research, please also check out related works in th
 If you find our work useful for your research, please cite our paper as follows:
 
 ```bibtex
+@INPROCEEDINGS{11463330,
+  author={Tan, Hanzhong and Zhang, Yedong and Zhang, Lingfeng and Li, Jun and Hu, Tao and Wu, Fukui},
+  booktitle={ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)}, 
+  title={Multi-Modal Hierarchical Fusion with Cross-Agent for RGB-D Salient Object Detection}, 
+  year={2026},
+  volume={},
+  number={},
+  pages={12952-12956},
+  doi={10.1109/ICASSP55912.2026.11463330}}
 
