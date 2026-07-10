@@ -44,7 +44,7 @@ This repository contains the official PyTorch implementation of **HMaT-D**. In t
 *Our HMaT-D introduces a hierarchical multi-attention transformer with cross-agent interaction to deeply integrate cross-modal information, suppressing noise and highlighting salient regions across RGB and Depth modalities.*
 
 <div align="center">
-  <img src="docs/model.jpg" alt="HMaT-D Model Architecture" width="90%">
+  <img src="image/model.jpg" alt="HMaT-D Model Architecture" width="90%">
   <p><em>Figure 2: Overall Architecture of the proposed HMaT-D.</em></p>
 </div>
 
