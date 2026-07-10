@@ -48,6 +48,11 @@ This repository contains the official PyTorch implementation of **HMaT-D**. In t
   <p><em>Figure 2: Overall Architecture of the proposed HMaT-D.</em></p>
 </div>
 
+<div align="center">
+  <img src="image/cross-agent_attention.jpg" alt="HMaT-D Model Architecture" width="90%">
+  <p><em>Figure 2: Overall Architecture of the proposed HMaT-D.</em></p>
+</div>
+
 ---
 
 ## 📊 Experimental Results
