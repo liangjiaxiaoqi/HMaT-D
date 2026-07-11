@@ -114,3 +114,14 @@ If you find our work useful for your research, please cite our paper as follows:
   pages={12952-12956},
   doi={10.1109/ICASSP55912.2026.11463330}}
 
+@INPROCEEDINGS{11293468,
+  author={Tan, Hanzhong and Wen, Shuangbing and Zhu, Li and Huang, Haifeng and Zhang, Lingfeng and Li, Jun and Hu, Tao},
+  booktitle={2025 International Conference on Advanced Robotics and Mechatronics (ICARM)}, 
+  title={HEFT: Hierarchical Enhanced Fusion Transformer for RGB-D Salient Object Detection}, 
+  year={2025},
+  volume={},
+  number={},
+  pages={982-987},
+  keywords={Measurement;Navigation;Object detection;Benchmark testing;Transformer cores;Transformers;Feature extraction;Path planning;Object recognition;Robots},
+  doi={10.1109/ICARM65671.2025.11293468}}
+
