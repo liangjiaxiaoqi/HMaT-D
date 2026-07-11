@@ -26,6 +26,11 @@ Run: python train_test_eval.py --Testing True.
 
 This repository contains the official PyTorch implementation of **HMaT-D**. In this work, we propose a Multi-modal Hierarchical Fusion network with Cross-Agent designed for highly efficient multimodal interaction in RGB-D Salient Object Detection (SOD) tasks.
 
+<div align="center">
+  <img src="image/Poster-HMaT-D.jpg" alt="Poster of HMaT-D" width="90%">
+  <p><em>Figure 1: Poster of the proposed HMaT-D in IEEE ICASSP.</em></p>
+</div>
+
 ---
 
 <!--
@@ -47,12 +52,12 @@ This repository contains the official PyTorch implementation of **HMaT-D**. In t
 
 <div align="center">
   <img src="image/model.jpg" alt="HMaT-D Model Architecture" width="90%">
-  <p><em>Figure 1: Overall Architecture of the proposed HMaT-D.</em></p>
+  <p><em>Figure 2: Overall Architecture of the proposed HMaT-D.</em></p>
 </div>
 
 <div align="center">
   <img src="image/cross-agent_attention.jpg" alt="HMaT-D Model Architecture" width="90%">
-  <p><em>Figure 2: The proposed C2MBA-T convertor model (Top left) and bilateral cross-agent attention framework (Right).</em></p>
+  <p><em>Figure 3: The proposed C2MBA-T convertor model (Top left) and bilateral cross-agent attention framework (Right).</em></p>
 </div>
 
 ---
@@ -63,12 +68,12 @@ Extensive experiments demonstrate that HMaT-D achieves state-of-the-art performa
 
 <div align="center">
   <img src="image/Quantitative results.jpg" alt="Experimental Results" width="90%">
-  <p><em>Figure 3: Quantitative results of HMaT-D compared with RGB-D SOD State-of-the-Art methods.</em></p>
+  <p><em>Figure 4: Quantitative results of HMaT-D compared with RGB-D SOD State-of-the-Art methods.</em></p>
 </div>
 
 <div align="center">
   <img src="image/Converter Comparison.jpg" alt="Experimental Results" width="60%">
-  <p><em>Figure 4: A visual comparison of attention mechanisms across different convertors.</em></p>
+  <p><em>Figure 5: A visual comparison of attention mechanisms across different convertors.</em></p>
 </div>
 
 ---
