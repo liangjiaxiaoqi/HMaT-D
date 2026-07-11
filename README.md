@@ -28,7 +28,7 @@ This repository contains the official PyTorch implementation of **HMaT-D**. In t
 
 <div align="center">
   <img src="image/Poster-HMaT-D.jpg" alt="Poster of HMaT-D" width="100%">
-  <p><em>Figure 1: Poster of the proposed HMaT-D in IEEE ICASSP 2026.</em></p>
+  <p><em>Figure 1: Poster of the proposed HMaT-D at the IEEE ICASSP 2026.</em></p>
 </div>
 
 ---
