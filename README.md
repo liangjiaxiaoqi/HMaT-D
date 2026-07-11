@@ -27,7 +27,7 @@ Run: python train_test_eval.py --Testing True.
 This repository contains the official PyTorch implementation of **HMaT-D**. In this work, we propose a Multi-modal Hierarchical Fusion network with Cross-Agent designed for highly efficient multimodal interaction in RGB-D Salient Object Detection (SOD) tasks.
 
 <div align="center">
-  <img src="image/Poster-HMaT-D.jpg" alt="Poster of HMaT-D" width="90%">
+  <img src="image/Poster-HMaT-D.jpg" alt="Poster of HMaT-D" width="100%">
   <p><em>Figure 1: Poster of the proposed HMaT-D in IEEE ICASSP.</em></p>
 </div>
 
