@@ -114,6 +114,17 @@ If you find our work useful for your research, please cite our paper as follows:
   pages={12952-12956},
   doi={10.1109/ICASSP55912.2026.11463330}}
 
+@article{tan2026competitive,
+  title={Competitive fusion in multimodal networks for enhanced salient object detection},
+  author={Tan, H. and Wen, S. and Zhang, L. and others},
+  journal={The Visual Computer},
+  volume={42},
+  pages={397},
+  year={2026},
+  publisher={Springer},
+  doi={10.1007/s00371-026-04602-y}
+}
+
 @INPROCEEDINGS{11293468,
   author={Tan, Hanzhong and Wen, Shuangbing and Zhu, Li and Huang, Haifeng and Zhang, Lingfeng and Li, Jun and Hu, Tao},
   booktitle={2025 International Conference on Advanced Robotics and Mechatronics (ICARM)}, 
@@ -122,6 +133,5 @@ If you find our work useful for your research, please cite our paper as follows:
   volume={},
   number={},
   pages={982-987},
-  keywords={Measurement;Navigation;Object detection;Benchmark testing;Transformer cores;Transformers;Feature extraction;Path planning;Object recognition;Robots},
   doi={10.1109/ICARM65671.2025.11293468}}
 
